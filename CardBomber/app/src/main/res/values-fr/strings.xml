@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Cartes à Bombes \uD83D\uDCA3</string>
+    <string name="play">Jouer</string>
+    <string name="instructions">Les Instructions</string>
+    <string name="instructions1">
+        1. Les bases du jeu\n
+        \n
+        L\'objectif principal du jeu est retourner toutes les cartes, sauf pour les bombes\n
+        Quand toutes les cartes sauf les bombes sont retournées dans une rangée ou une colonne, un point est marqué\n
+        Le point est multiplié par le nombre de niveau (par exemple 2 points pour le niveau 2)\n
+        Il y a 6 vies au début du jeu\n
+        Quand une bombe est retournée, une vie est déduite\n
+        Quand la grille entière est fini, le jeu passe au niveau suivant\n
+        Chaque augmentation de niveau va ajouter une rangée et une colonne à la grille, de 5x5 à 9x9\n
+        Le jeu est terminé quand il n\'y a plus de vie\n
+    </string>
+    <string name="instructions2">
+        2. Les Indices\n
+        \n
+        Chaque carte peut avoir une valeur de 1, 2, 3 ou une bombe \uD83D\uDCA3\n
+        Les nombres noirs indiquent le total des valeurs de carte dans une ligne ou colonne\n
+        Les nombres gris indiquent combien de bombes sont dans une rangée ou colonne\n
+    </string>
+    <string name="nextPage">Le Page Suivant</string>
+    <string name="returnToMainMenu">Retour au Menu Principal</string>
+    <string name="options">Les Options</string>
+    <string name="level">"Niveau: %1$d"</string>
+    <string name="score">"Pointes: %1$d"</string>
+    <string name="lives">"Vives: %1$d"</string>
+    <string name="quit">Quitter</string>
+    <string name="nextLevel">Niveau suivant</string>
+    <string name="levelComplete">Niveau complet!</string>
+    <string name="gameOver">Le jeu est terminé!</string>
+    <string name="playAgain">Rejouer</string>
+    <string name="sound">Le Son</string>
+    <string name="on">Oui</string>
+    <string name="off">Non</string>
+    <string name="highScore">Meilleur Pointes: %1$d</string>
+</resources>

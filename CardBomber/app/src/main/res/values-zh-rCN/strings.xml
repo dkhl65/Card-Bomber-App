@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instructions">说明</string>
+    <string name="play">玩</string>
+    <string name="title">爆炸卡\uD83D\uDCA3</string>
+    <string name="instructions1">
+        1. 怎样玩游戏\n
+        \n
+        游戏的主要目的是翻转除了有炸弹的所有卡片\n
+        在一行或一列翻转了所有没有炸弹的卡片就会加一分\n
+        这一分会乘级别数（例如级别2会加两分）\n
+        游戏开始时有6条生命\n
+        翻转炸弹卡就会扣一条生命\n
+        当整个网格被清除时，游戏进入下一级\n
+        每次增加级别都会在网格中加一行和一列，从5x5到9x9\n
+        所有生命被扣就会结束游戏\n
+    </string>
+    <string name="instructions2">
+        2. 提示\n
+        \n
+        每张卡的值量可以是1、2、3或炸弹\uD83D\uDCA3\n
+        黑色数字显示行或列的总共卡值量\n
+        灰色数字显示行或列有多少炸弹\n
+    </string>
+    <string name="nextPage">下一页</string>
+    <string name="returnToMainMenu">回主目录</string>
+    <string name="options">选择</string>
+    <string name="level">"级别: %1$d"</string>
+    <string name="score">"分数: %1$d"</string>
+    <string name="lives">"生命: %1$d"</string>
+    <string name="quit">放弃</string>
+    <string name="nextLevel">下一级</string>
+    <string name="levelComplete">级别完成！</string>
+    <string name="gameOver">游戏结束！</string>
+    <string name="playAgain">再玩</string>
+    <string name="sound">声音</string>
+    <string name="on">开启</string>
+    <string name="off">关闭</string>
+    <string name="highScore">最高分数: %1$d</string>
+</resources>

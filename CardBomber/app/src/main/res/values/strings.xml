@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translatable="false">Card Bomber</string>
+
+    <string name="title">Card Bomber \uD83D\uDCA3</string>
+    <string name="play">Play</string>
+    <string name="instructions">Instructions</string>
+    <string name="options">Options</string>
+
+    <string name="instructions1">
+        1. Basics of the game\n
+        \n
+        The main objective of the game is to flip all cards except for bombs\n
+        When all cards except bombs are flipped in a row or column, a point is scored\n
+        The point is multiplied by the level number (e.g. 2 points for level 2)\n
+        There are 6 lives at the beginning of the game\n
+        When a bomb is flipped, a life is deducted\n
+        When the entire grid is cleared, the game advances to the next level\n
+        Each increase in level will add a row and column to the grid, from 5x5 to 9x9\n
+        The game is over when there are no lives remaining\n
+    </string>
+    <string name="instructions2">
+        2. Clues\n
+        \n
+        Each card can have a value of 1, 2, 3 or a bomb \uD83D\uDCA3\n
+        Black numbers show the total of card values in that row or column\n
+        Grey numbers show the number of bombs in that row or column\n
+    </string>
+    <string name="nextPage">Next Page</string>
+    <string name="returnToMainMenu">Return to Main Menu</string>
+
+    <string name="level">Level: %1$d</string>
+    <string name="score">Score: %1$d</string>
+    <string name="highScore">High Score: %1$d</string>
+    <string name="lives">Lives: %1$d</string>
+    <string name="quit">Quit</string>
+    <string name="nextLevel">Next Level</string>
+    <string name="playAgain">Play Again</string>
+    <string name="levelComplete">Level Complete!</string>
+    <string name="gameOver">Game Over!</string>
+
+    <string name="sound">Sound</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <!--💣
+    <string name="size" translatable="false">25dp</string>
+    <string name="margin" translatable="false">2dp</string>
+    <string name="textMarginRow" translatable="false">10dp</string>
+    <string name="gone" translatable="false">visible</string>-->
+
+</resources>
